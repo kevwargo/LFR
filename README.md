@@ -1,4 +1,4 @@
 LFR
 ===
 
-Algorithm for line follower robot
+Algorithm for the line follower robot
