@@ -249,7 +249,7 @@ sleep:                          ; zwykły sleep,
                                 ; sleep'ami w ustawienu preskalera
                                 ; (układu, który zmniejsza częstotliwość
                                 ; taktowania wbudowanego zegara):
-                                ; CS00 | CS01 => razy 64; CS00 | CS012 => razy 1024.
+                                ; CS00 | CS01 => razy 64; CS00 | CS02 => razy 1024.
                                 ; Taktowanie wewnętrznego zegara to 8MHz
 _sleep_skip:
         out TCCR0, BUF
